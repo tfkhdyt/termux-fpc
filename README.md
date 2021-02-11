@@ -1,5 +1,5 @@
 # Free Pascal Compiler for Termux
-[![banner-codm-ws.jpg](https://i.postimg.cc/K8Q8Fprr/banner-codm-ws.jpg)](https://postimg.cc/MnMSmDLv)<br>
+[![banner-termux-fpc.jpg](https://i.postimg.cc/3NcKMwy0/banner-termux-fpc.jpg)](https://postimg.cc/BP2WH4BJ)<br>
 Skrip ini berfungsi untuk meng-compile dan meng-execute program pascal di Termux.
 <br>
 <p align=center>
