@@ -1,8 +1,7 @@
-# Call of Duty Mobile Weapon Score
+# Free Pascal Compiler for Termux
 [![banner-codm-ws.jpg](https://i.postimg.cc/K8Q8Fprr/banner-codm-ws.jpg)](https://postimg.cc/MnMSmDLv)<br>
-Skrip ini berfungsi untuk menghitung score dari senjata CODM.
-Cara kerjanya user memasukkan nama senjata, damage, fire rate, accuracy, dll. Kemudian program akan otomatis menghitung score performa dari senjata tersebut. Kalian pun dapat membandingkan dan menghitung score 2 senjata secara bersamaan.
-Dengan skrip ini kalian bisa menentukan build senjata mana yang terbaik<br>
+Skrip ini berfungsi untuk meng-compile dan meng-execute program pascal di Termux.
+<br>
 <p align=center>
 <img src="https://img.shields.io/badge/Created%20by-tfkhdyt-blue?style=for-the-badge&logo=github"/><br>
 <a href="Https://facebook.com/tfkhdyt142"><img height="30" src="https://www.pinclipart.com/picdir/big/2-21918_download-transparent-background-facebook-logo-clipart-facebook-logo.png"></a>&nbsp;
@@ -19,27 +18,14 @@ Dengan skrip ini kalian bisa menentukan build senjata mana yang terbaik<br>
 
 ## Instalasi
 ```Bash
-git clone https://github.com/tfkhdyt/CODMWeaponScore.git && cd CODMWeaponScore && ./install.sh
+git clone https://github.com/tfkhdyt/termux-fpc.git && cd termux-fpc && ./install.sh
 ```
 ## Cara penggunaan
 ```Bash
-# ws [Nama Senjata] [Damage] [Fire rate] [Accuracy] [Mobility] [Range] [Control]
-# Contoh:
-ws QXR 38 81 86 78 42 51
-
-# Untuk nama senjata yang menggunakan spasi, gunakan tanda petik ganda (") di awal dan akhir nama senjata
-# Contoh:
-ws "DR-H OTM" 67 57 63 58 54 52
-
-# Untuk membandingkan dua senjata sekaligus, gunakan perintah seperti berikut:
-ws "SCAR 17" 67 57 75 62 54 53 && \
-ws "FR 5.56 Polos" 41 65 60 77 60 55
-
-# Ketik command berikut untuk membaca petunjuk penggunaan lagi
-ws -h
+pas [nama_file.pas]
+# contoh
+pas gaji.pas
 ```
-## Screenshots
-<img src="https://i.postimg.cc/vZ6w2P2Z/Screenshot-2021-01-25-18-10-21-81.jpg" height="100" loading="lazy"/> <img src="https://i.postimg.cc/d0PPb8gm/Screenshot-2021-01-25-18-11-13-50-84d3000e3f4017145260f7618db1d683.jpg" height=100 loading="lazy"/> <img src="https://i.postimg.cc/XvfS4rbM/Screenshot-2021-01-25-18-11-35-99-84d3000e3f4017145260f7618db1d683.jpg" height=100 loading="lazy"/>
 
 ## Informasi lebih lanjut
 Apabila ada yang mau ditanyakan soal skrip ini, bisa langsung pm saya:
